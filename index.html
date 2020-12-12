@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de adhesion</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+           <h1 id="title" class="text-center">Animate a ser mentora/  Sumate  (?)</h1>
+           <p id="description" class="description text-center"> Mensaje alentador ! </p>
+        </header>
+        <form id="ad-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Nombre y apellido</label>
+            <input
+                type="text"
+                name="name"
+                is="name"
+                class="form-control"
+                placeholder="Ingresa tu nombre y apellido"
+                required
+             />
+          </div>
+          <div class="form-group">
+            <label id="email-label"
+             for="label">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="ingresa tu email"
+              required
+             />
+          </div>  
+          <div form-group>
+            <p>Cuales son tus conocimientos/intereses</p>
+            <select id="dropdown" name="role" class="form-control" required>
+              <option disable selected value> Seleccionalos</option>
+            
+              <option value="">opcion 1</option>
+              <option value="">opcion 2</option>
+              <option value="">opcion 3</option>
+              <option value="">opcion 4</option>
+              <option value="">opcion 5</option>
+             </select>
+          </div>
+          <div class="form-group">
+            <p>¿como nos conociste?</p>
+            <label><input
+              name="you-met-us"
+              value="Por redes sociales"
+              type="radio" 
+              class="input-radio"
+              checked/> Por redes sociales</label>
+            <label>
+              <input
+               name="you-met-us"
+               value="por una amiga/conocida"
+               type="radio"
+               class="input-radio"/> Por una amiga/conocida</label>
+            <label>
+              <input
+              name="you-met-us"  
+              value="Por una Organizacion similar "
+              type="radio"
+              class="input-radio"/> Por una organización similar </label>
+          </div>
+          <div>
+            <p>En qué roles...?<span class="clue">(Marca todos los que te interesen...)</span></p>
+            <label>
+              <input
+               name="prefer"
+               value="front-end-projects"
+               type="checkbox"
+               class="input-checkbox"/> Recibir mentoria  (?) </label>
+            <label>
+              <input
+              name="prefer"
+              value="back-end-projects"
+              type="checkbox"
+              class="input-checkbox" /> Colaboradora o facilitadora</label>
+            <label>
+              <input
+              name="prefer"
+              value="data-visualization"
+              type="checkbox"
+              class="input-checkbox"/> Mentora </label>
+            <label>
+              <input
+               name="prefer"
+               value="challenges"
+               type="checkbox"
+               class="input-checkbox"/> Tallerista (?)</label>
+            <label>
+              <input
+              name="prefer"
+              value="open-source-community"
+              type="checkbox"
+              class="input-checkbox"/> otro </label>
+            <label>
+              <input
+               name="prefer"
+               value="gitter-help-rooms"
+               type="checkbox"
+               class="input-checkbox"/> otro 2</label>
+            <label>
+              <input
+                name="prefer"
+                value="videos"
+                type='checkbox'
+                class="input-checkbox"/> otro 3</label>
+          </div>
+          
+          <div class="form-group">
+            <p>¿Tenés algún comentario o sugerencia ? </p>
+            <textarea
+              id="comments"
+              class="input-textarea"
+              name="comments" 
+              placeholder="Queremos saber tu opinión..."></textarea>
+          </div>
+          
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-button"> Enviar</button>  
+          </div>
+        </form>
+      </div>     
+</body>
+</html>
