@@ -8,5 +8,6 @@ aquellas que necesites comunicarse con el staff de Voces Vitales, pueda hacerlo 
 
 demo https://maru8605.github.io/form-vocesvitales/
 
-![form-VocesVitales](https://user-images.githubusercontent.com/55419544/125124853-234c7f00-e0cf-11eb-9c07-2eb0bd3b2b15.png)
+![form-VocesVitales (2)](https://user-images.githubusercontent.com/55419544/125125069-79b9bd80-e0cf-11eb-9d68-1465ce3f1677.png)
+
 
